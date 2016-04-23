@@ -1,0 +1,22 @@
+<div class="row">
+  {{#each categories}}
+  <div class="col-md-2">
+    <p class="text-center flagship-tile">
+      <img src="/img/folder.png" style="width:115px" />
+      <br />
+      <strong>{{name}}</strong>
+      <a href="#"><span></span></a>
+    </p>
+  </div>
+  {{/each}}
+  {{#each files}}
+  <div class="col-md-2">
+    <p class="text-center flagship-tile">
+      <img src="/img/file.png" style="width:115px" />
+      <br />
+      <strong>{{name}}</strong>
+      <a href="#"><span></span></a>
+    </p>
+  </div>
+  {{/each}}
+</div>

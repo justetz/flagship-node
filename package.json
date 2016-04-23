@@ -1,0 +1,31 @@
+{
+  "name": "flagship-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "body-parser": "^1.9.2",
+    "crypto": "0.0.3",
+    "express": "^4.13.3",
+    "express-handlebars": "^3.0.0",
+    "express-hbs": "^1.0.0",
+    "method-override": "^2.3.0",
+    "mime": "^1.3.4",
+    "multer": "^1.1.0",
+    "should": "^7.1.0",
+    "supertest": "^1.1.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.3"
+  },
+  "scripts": {
+    "test": "mocha",
+    "prestart": "mkdir -p uploads",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
